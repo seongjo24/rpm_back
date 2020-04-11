@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MariaDBDialect
+    generate-ddl: true
+  datasource:
+    url: jdbc:mariadb://rpmdatabase.cm3owjkpw0q9.ap-northeast-2.rds.amazonaws.com/rpmdatabase
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: rpmdatabase
+    password: rpmdatabase
